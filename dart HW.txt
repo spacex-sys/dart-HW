@@ -1,0 +1,39 @@
+void main() {
+int planetNumber = 3;
+  switch (planetNumber) {
+    case 1:
+      print('Mercury');
+      break;
+    case 2:
+      print('Venus');
+      break;
+    case 3:
+      print('Earth');
+      break;
+    case 4:
+      print('Mars');
+      break;
+    case 5:
+      print('Jupiter');
+      break;
+    case 6:
+      print('Saturn');
+      break;
+    case 7:
+      print('Uranus');
+      break;
+    case 8:
+      print('Neptune');
+      break;
+    default:
+      print('Invalid planet');
+  }  
+
+// هذا الواجب الثاني الخاص بال do while انا خليتهم يشتغلو ككود واحد
+
+int count = 1;
+  do {
+    print('Planet number: $count');
+    count++;
+  } while (count <= 8);
+}
