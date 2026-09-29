@@ -18,7 +18,7 @@ class FirstProject extends StatelessWidget {
         body: Center(
           child: SingleChildScrollView(
             child: Padding(
-              padding: EdgeInsets.all(30),
+              padding: .all(30),
 
               child: ConstrainedBox(
                 constraints: BoxConstraints(
@@ -26,7 +26,7 @@ class FirstProject extends StatelessWidget {
                 ),
 
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisAlignment: .center,
                   spacing: 15,
 
                   children: [
@@ -49,7 +49,7 @@ class FirstProject extends StatelessWidget {
                       "Welcome Back",
                       style: TextStyle(
                         fontSize: 28,
-                        fontWeight: FontWeight.bold,
+                        fontWeight: .bold,
                         color: Colors.black,
                       ),
                     ),
@@ -76,27 +76,27 @@ class FirstProject extends StatelessWidget {
                             onPressed: () {},
 
                             style: OutlinedButton.styleFrom(
-                              padding: EdgeInsets.symmetric(
+                              padding: .symmetric(
                                 vertical: 15,
                               ),
                               side: BorderSide(
                                 color: Colors.grey.shade300,
                               ),
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(9),
+                                borderRadius: .circular(9),
                               ),
                             ),
 
                             child: Row(
                               mainAxisAlignment:
-                                  MainAxisAlignment.center,
+                                  .center,
 
                               children: [
                                 Text(
                                   "G",
                                   style: TextStyle(
                                     fontSize: 20,
-                                    fontWeight: FontWeight.bold,
+                                    fontWeight: .bold,
                                     color: Colors.blue,
                                   ),
                                 ),
@@ -120,20 +120,20 @@ class FirstProject extends StatelessWidget {
                             onPressed: () {},
 
                             style: OutlinedButton.styleFrom(
-                              padding: EdgeInsets.symmetric(
+                              padding: .symmetric(
                                 vertical: 15,
                               ),
                               side: BorderSide(
                                 color: Colors.grey.shade300,
                               ),
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(9),
+                                borderRadius: .circular(9),
                               ),
                             ),
 
                             child: Row(
                               mainAxisAlignment:
-                                  MainAxisAlignment.center,
+                                  .center,
 
                               children: [
 
@@ -195,14 +195,14 @@ class FirstProject extends StatelessWidget {
                         hintText: "Email address",
 
                         border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(9),
+                          borderRadius: .circular(9),
                           borderSide: BorderSide(
                             color: Colors.grey.shade300,
                           ),
                         ),
 
                         enabledBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(9),
+                          borderRadius: .circular(9),
                           borderSide: BorderSide(
                             color: Colors.grey.shade300,
                           ),
@@ -228,14 +228,14 @@ class FirstProject extends StatelessWidget {
                         hintText: "Password",
 
                         border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(9),
+                          borderRadius: .circular(9),
                           borderSide: BorderSide(
                             color: Colors.grey.shade300,
                           ),
                         ),
 
                         enabledBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(9),
+                          borderRadius: .circular(9),
                           borderSide: BorderSide(
                             color: Colors.grey.shade300,
                           ),
@@ -245,7 +245,7 @@ class FirstProject extends StatelessWidget {
 
                     // Login button
                     SizedBox(
-                      width: double.infinity,
+                      width: .infinity,
                       height: 52,
 
                       child: ElevatedButton(
@@ -256,7 +256,7 @@ class FirstProject extends StatelessWidget {
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.blue,
                           shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(9),
+                            borderRadius: .circular(9),
                           ),
                         ),
 
@@ -265,7 +265,7 @@ class FirstProject extends StatelessWidget {
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16,
-                            fontWeight: FontWeight.bold,
+                            fontWeight: .bold,
                           ),
                         ),
                       ),
@@ -273,7 +273,7 @@ class FirstProject extends StatelessWidget {
 
                     // Don't have an account?
                     Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisAlignment: .center,
 
                       children: [
 
