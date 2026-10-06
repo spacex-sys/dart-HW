@@ -29,7 +29,6 @@ int planetNumber = 3;
       print('Invalid planet');
   }  
 
-// هذا الواجب الثاني الخاص بال do while انا خليتهم يشتغلو ككود واحد
 
 int count = 1;
   do {
